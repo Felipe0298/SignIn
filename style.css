@@ -1,0 +1,32 @@
+* {
+    padding: 5px;
+    margin: 0px;
+    text-align: center;
+    box-sizing: border-box;
+  }
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.header img{
+    width: 15%;
+}
+
+.header p a{
+    color: aqua;
+    text-decoration: underline;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: aqua;
+    width: 100%;
+    height: 60vh;
+}
