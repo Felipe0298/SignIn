@@ -9,6 +9,8 @@ body {
     background-image: url('https://media.istockphoto.com/id/1370858067/es/vector/fondo-abstracto-neutro-plantilla-de-p%C3%B3ster-m%C3%ADnima-con-formas-diagonales-dise%C3%B1o-tranquilo-con.jpg?s=612x612&w=0&k=20&c=fLOS7e_yrt9aRzWMqbJwcxHPevay7TL0vL6l9g2r0C4=');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+    height: 100vh;
 }
 
 .header {
