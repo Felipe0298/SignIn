@@ -39,8 +39,8 @@ body {
   }
   
   .main__mug {
-      margin-left: auto;
-  }
+    right: 10;
+}
 
   .main__hr {
     height: 5px;
@@ -93,22 +93,54 @@ body {
     border: none;
 }
 
+.input-group-append {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10px;
+    cursor: pointer;
+    z-index: 2;
+  }
+  
+  .form-control {
+    padding-right: 40px; /* Ajusta este valor según el tamaño del icono */
+  }
+  
+  .fa-eye {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10px;
+    z-index: 1;
+  }
+  
+.span__i{
+    background-color: white;
+    border: none;
+}
+
+.bnt__SignIn{
+    width: 100%;
+    background-color: #00bdd5;
+    border: none;
+}
+
 .btn-google {
-    background-color: #dd4b39;
-    color: #fff;
-    border-color: #dd4b39;
+    width: 75px;
+    background-color: #fef1f1;
+    color: red;
 }
 
 .btn-facebook {
-    background-color: #3b5998;
-    color: #fff;
-    border-color: #3b5998;
+    width: 75px;
+    background-color: #f3f6fb;
+    color: blue;
 }
 
 .btn-apple {
-    background-color: #000;
-    color: #fff;
-    border-color: #000;
+    width: 75px;
+    background-color: #f3f6fb;
+    color: #555d68;
 }
 
 .form-check{
@@ -124,9 +156,13 @@ body {
     align-items: center;
 }
 
+.a__password{
+    text-decoration: none;
+}
+
 
 /* Seccion 4 */
 
 .main__section4{
-    margin-top: 40vh;
+    margin-top: 30vh;
 }

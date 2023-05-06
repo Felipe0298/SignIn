@@ -2,90 +2,104 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/add9926b07.js" crossorigin="anonymous"></script>
-    
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/add9926b07.js" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
 
-    <link rel="shortcut icon" href="./Images/Ico/LogoSample_ByTailorBrands-removebg-preview.ico">
-    <link rel="stylesheet" href="style.css">
-    <title>Sign in</title>
+  <link rel="stylesheet" href="style.css">
+  <title>Sign in</title>
 </head>
 
 <body>
 
-    <header class="header">
-        <img src="./Images/LogoSample_ByTailorBrands-removebg-preview.png" alt="logo" title="Logo" class="header__img">
-        <p>Doesn't have an account? <a href="#" class="header__a">Sign up</a></p>
-    </header>
+  <header class="header">
+    <img src="./Images/LogoSample_ByTailorBrands-removebg-preview.png" alt="logo" title="Logo" class="header__img">
+    <p>Doesn't have an account? <a href="#" class="header__a">Sign up</a></p>
+  </header>
 
-    <main class="main">
+  <main class="main">
 
-        <section class="main__section1 d-none d-md-block">
-            <i class="fa-solid fa-mug-hot fa-4x" style="color: #4a68c7;"></i>
-            <hr class="main__hr">
-        </section>
+    <section class="main__section1 d-none d-md-block">
+      <!-- <i class="fa-solid fa-mug-hot fa-4x" style="color: #4a68c7;"></i> -->
+      <svg xmlns="http://www.w3.org/2000/svg" class="main__mug" viewBox="0 0 512 512" width="70px" height="70px">
+        <path fill="#4a68c7"
+          d="M88 0C74.7 0 64 10.7 64 24c0 38.9 23.4 59.4 39.1 73.1l1.1 1C120.5 112.3 128 119.9 128 136c0 13.3 10.7 24 24 24s24-10.7 24-24c0-38.9-23.4-59.4-39.1-73.1l-1.1-1C119.5 47.7 112 40.1 112 24c0-13.3-10.7-24-24-24zM32 192c-17.7 0-32 14.3-32 32V416c0 53 43 96 96 96H288c53 0 96-43 96-96h16c61.9 0 112-50.1 112-112s-50.1-112-112-112H352 32zm352 64h16c26.5 0 48 21.5 48 48s-21.5 48-48 48H384V256zM224 24c0-13.3-10.7-24-24-24s-24 10.7-24 24c0 38.9 23.4 59.4 39.1 73.1l1.1 1C232.5 112.3 240 119.9 240 136c0 13.3 10.7 24 24 24s24-10.7 24-24c0-38.9-23.4-59.4-39.1-73.1l-1.1-1C231.5 47.7 224 40.1 224 24z" />
+      </svg>
+      <hr class="main__hr">
+    </section>
 
-        <section class="main__section2 d-none d-md-block">
-            <h2 class="main__section2-h2">Great to have you back!</h2>
-            <p class="main__section2-p">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil, accusantium! Fugiat velit nemo.</p>
-            <i class="fa-solid fa-sun fa-4x" style="color: #e0a558;"></i>
-        </section>
+    <section class="main__section2 d-none d-md-block">
+      <h2 class="main__section2-h2">Great to have you back!</h2>
+      <p class="main__section2-p">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil, accusantium! Fugiat
+        velit nemo.</p>
+      <!-- <i class="fa-solid fa-sun fa-4x" style="color: #e0a558;"></i> -->
+      <svg xmlns="http://www.w3.org/2000/svg" class="main__sun" viewBox="0 0 512 512" width="70px" height="70px">
+        <path fill="#e0a558"
+          d="M361.5 1.2c5 2.1 8.6 6.6 9.6 11.9L391 121l107.9 19.8c5.3 1 9.8 4.6 11.9 9.6s1.5 10.7-1.6 15.2L446.9 256l62.3 90.3c3.1 4.5 3.7 10.2 1.6 15.2s-6.6 8.6-11.9 9.6L391 391 371.1 498.9c-1 5.3-4.6 9.8-9.6 11.9s-10.7 1.5-15.2-1.6L256 446.9l-90.3 62.3c-4.5 3.1-10.2 3.7-15.2 1.6s-8.6-6.6-9.6-11.9L121 391 13.1 371.1c-5.3-1-9.8-4.6-11.9-9.6s-1.5-10.7 1.6-15.2L65.1 256 2.8 165.7c-3.1-4.5-3.7-10.2-1.6-15.2s6.6-8.6 11.9-9.6L121 121 140.9 13.1c1-5.3 4.6-9.8 9.6-11.9s10.7-1.5 15.2 1.6L256 65.1 346.3 2.8c4.5-3.1 10.2-3.7 15.2-1.6zM160 256a96 96 0 1 1 192 0 96 96 0 1 1 -192 0zm224 0a128 128 0 1 0 -256 0 128 128 0 1 0 256 0z" />
+      </svg>
+    </section>
 
-        <section class="main__section3">
-            <h1 class="main__h1">Sign in</h1>
+    <section class="main__section3">
+      <h1 class="main__h1">Sign in</h1>
 
-            <div class="signin-form">
-                <div class="form-group">
-                  <label for="email">Email</label>
-                  <div class="input-group">
-                    <input type="email" class="form-control" id="email" name="email">
-                  </div>
-                </div>
-
-                <div class="form-group">
-                  <label for="password">Password</label>
-                  <div class="input-group">
-                    <input type="password" class="form-control" id="password" name="password">
-                    <div class="input-group-append">
-                      <button class="btn btn-outline-secondary toggle-password" type="button"><i class="fa fa-eye"></i></button>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="form-group form-check">
-                    <div class="section3__formCheck">
-                        <input type="checkbox" class="form-check-input" id="remember-me" name="remember-me">
-                        <label class="form-check-label" for="remember-me">Remember me</label>
-                    </div>
-                        <a href="#">Forgot password?</a>
-                </div>
-
-                <button type="submit" class="btn btn-primary btn-block">Sign In</button>
-
-                <div class="or-divider">
-                  <span>Or sign in with</span>
-                </div>
-
-                <div class="social-login">
-                  <a href="#" class="btn btn-block btn-google"><i class="fab fa-google"></i></a>
-                  <a href="#" class="btn btn-block btn-facebook"><i class="fab fa-facebook"></i></a>
-                  <a href="#" class="btn btn-block btn-apple"><i class="fab fa-apple"></i></a>
-                </div>
-              </div>
-              
-        </section>
-
-        <section class="main__section4 d-none d-md-block">
-            <i class="fa-solid fa-lightbulb fa-4x" style="color: #4a68c7;"></i>
-        </section>
+      <div class="signin-form">
+        <div class="form-floating mb-3">
+          <input type="email" class="form-control" id="email" name="email" placeholder="example.email@gmail.com">
+          <label for="email" class="fw-bold">Email</label>
+        </div>
 
 
-    </main>
+        <div class="form-floating mb-3">
+          <input type="password" class="form-control" id="password" name="password"
+            placeholder="Enter at least 8+ characters." aria-describedby="passwordHelp">
+          <label for="password" class="fw-bold">Password</label>
+          <div class="input-group-append">
+            <span class="input-group-text span__i"><i class="fa fa-eye"></i></span>
+          </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+        </div>
+
+        <div class="form-group form-check">
+          <div class="section3__formCheck">
+            <input type="checkbox" class="form-check-input" id="remember-me" name="remember-me">
+            <label class="form-check-label" for="remember-me">Remember me</label>
+          </div>
+          <a href="#" class="a__password">Forgot password?</a>
+        </div>
+
+        <button type="submit" class="btn btn-primary btn-block bnt__SignIn">Sign in</button>
+
+        <div class="or-divider">
+          <span>Or sign in with</span>
+        </div>
+
+        <div class="social-login">
+          <a href="#" class="btn btn-block btn-google"><i class="fab fa-google"></i></a>
+          <a href="#" class="btn btn-block btn-facebook"><i class="fab fa-facebook"></i></a>
+          <a href="#" class="btn btn-block btn-apple"><i class="fab fa-apple"></i></a>
+        </div>
+
+      </div>
+
+    </section>
+
+    <section class="main__section4 d-none d-md-block">
+      <!-- <i class="fa-solid fa-lightbulb fa-4x" style="color: #4a68c7;"></i> -->
+      <svg xmlns="http://www.w3.org/2000/svg" class="main__lightbulb" viewBox="0 0 384 512" width="70px" height="70px">
+        <path fill="#4a68c7"
+          d="M272 384c9.6-31.9 29.5-59.1 49.2-86.2l0 0c5.2-7.1 10.4-14.2 15.4-21.4c19.8-28.5 31.4-63 31.4-100.3C368 78.8 289.2 0 192 0S16 78.8 16 176c0 37.3 11.6 71.9 31.4 100.3c5 7.2 10.2 14.3 15.4 21.4l0 0c19.8 27.1 39.7 54.4 49.2 86.2H272zM192 512c44.2 0 80-35.8 80-80V416H112v16c0 44.2 35.8 80 80 80zM112 176c0 8.8-7.2 16-16 16s-16-7.2-16-16c0-61.9 50.1-112 112-112c8.8 0 16 7.2 16 16s-7.2 16-16 16c-44.2 0-80 35.8-80 80z" />
+      </svg>
+    </section>
+
+
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
 
 </body>
 
